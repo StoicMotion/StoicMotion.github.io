@@ -1,0 +1,171 @@
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    position: relative;
+    top: 50px;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #858585;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+    z-index: 4;
+}
+
+.navtitle {
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
+.navlist {
+    list-style: none;
+    position: absolute;
+    right: 10px;
+}
+
+.navlist li {
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.maintitle {
+    background-image: url("./public/img/nyc-skyline-grayscale.jpg");
+    position: static;
+    display: block;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.maintitle h1 {
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    font-size: 60px;
+    margin-top: 142.25px;
+    margin-bottom: 0; 
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+article {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+article h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container {
+    border: 2px solid #858585;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+    display: block;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.orange {
+    background-color: #FF8200;
+    color: white;
+}
+
+.blue {
+    background-color: #00698f;
+    color: white;
+}
+
+.gray {
+    background-color: #858585;
+    color: white;
+}
+
+.font-container {
+    width: 100%;
+    display: block;
+    max-height: 200px;
+}
+
+.font-panel{
+    display: inline-block;
+    width: 49%;
+    min-height: 200px;
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.font-label {
+    font-size: 24px;
+    text-decoration: underline;
+    height: 35px;
+}
+
+.dosis-normal {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    height: 23px;
+}
+
+.dosis-bold {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    height: 23px;
+}
+
+.italic {
+    font-style: italic;
+    height: 23px;
+}
+
+.zen-kaku {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.kaku-bold {
+    font-weight: 700;
+}
